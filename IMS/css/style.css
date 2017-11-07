@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 19, 2017, 11:55:37 AM
+    Author     : mikus
+*/
+
+body {
+    background-color: #d9d9d9;
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+}
+
+p.greeting {
+    text-align: center;
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: bold;
+    color: #737373;
+}
+
+p.greeting-subtitle {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1em;
+    font-weight: bold;
+    color: #737373;
+}
+
+label {
+    font-family: Arial;
+    padding-right: 10px;
+}
+
+button {
+    background-color: #3385ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+/*    width: 100%;*/
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button#sort {
+    padding-left: 25px;
+}
+
+.main-menu > form > button {
+    width: 100%;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.panel-body {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding-right: 20px;
+    background-color: #b3b3b3;
+    width: 200px;
+}
+
+.main-menu {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #b3b3b3;
+    width: 200px;
+}
+
+.main-menu-container {
+    margin: auto;
+    text-align: center;
+}
+
+.panel {
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding-right: 20px;
+    background-color: #b3b3b3;
+    width: 50%;
+}
+
+.panel#product-list {
+    position: relative;
+    width: 75%;
+}
+
+.panel#user-list {
+    width: 60%;
+}
+
+.sort {
+    position: absolute;
+    display: flex;
+    align-content: space-around;
+    width: 100%;
+    left: auto;
+    right: auto;
+    top: -70px;
+}
+
+.sort-form {
+    display: flex;
+    padding-left: 10px;
+}
+
+input#username {
+    margin-bottom: 10px;
+}
+
+input#password {
+    margin-bottom: 10px;
+}
+
+input#searchterm {
+    margin-right: 10px;
+}
+
+table {
+    font-family: Arial;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+th {
+    color: white;
+}
+
+tr {
+    background-color: #d9d9d9;
+}
+
+a {
+    font-family: Arial;
+}
+
+.pagination {
+    padding: 10px;
+}
+
+
+
+td.min {
+    width: 1%;
+    white-space: nowrap;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select#sort-by {
+    margin: 8px 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.curPage {
+    background-color: #3385ff;
+}
+
+img {
+  max-width:50%;
+  max-height:50%;
+}
